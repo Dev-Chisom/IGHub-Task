@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:  'Lato', sans-serif;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  #1E73E8;
+    color: #fff;
+
+}
+.header .logo{
+    display: flex;
+    margin-left: 7rem;
+    
+}
+.header h4{
+    font-size: 24px;
+    margin-right: 3px;
+    line-height: 15px;
+    padding: 10px;
+    border-right: 2px solid #fff;
+}
+.line{
+
+    border: 1px solid #FFFFFF;
+    transform: matrix(0, 1, 1, 0, 0, 0)
+}
+.header p{
+ font-size: 20px ;
+ line-height: 15px;
+ padding: 10px;
+}
+.user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 7rem;
+}
+.user1{
+    padding: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    background: #e5e5e5;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+ ul li{
+     margin-right: 7rem;
+     margin-left: 7rem;
+     padding: 10px;
+    font-size: 1rem;
+    line-height: 1rem;
+    border-top: 1px solid #444;
+    list-style: none;
+    cursor: pointer;
+}
+ .btn-primary{
+    background-color:  #1E73E8;
+    font-size: 1rem;
+}
+.notice{
+    margin-top: 4rem;
+}
+.notice p{
+    color: #888;
+}
+.notice .notice-items{
+    background-color: #FFFFFF;
+    padding: 1.5rem 1.5rem;
+}
+.statistics{
+    padding: 15px;
+}
+.schedule1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+}
+.schedule{
+    background: #fff;
+}
+.text-small{
+    font-size: 10px;
+}
+.bg-light{
+    background-color: #fff;
+}
+.schedule{
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 10px;
+}
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 1.5rem;
+}
+
+.container h2{
+    padding-bottom: 5px;
+    padding-left: 20px;
+    
+}
+.content{
+    width: 801px;
+    height: 716px;
+    
+}
+.content p{
+    padding: 10px 10px;
+}
+form{
+    margin-left: 3rem;
+}
+form input{
+    background: #f2f2f2;
+    border-radius: 7px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1.6rem;
+    width: 20rem;
+    height: 5rem;
+    border: none;
+    outline: none;
+}
+form select{
+    background: #f2f2f2;
+    border-radius: 7px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1.6rem;
+    width: 20rem;
+    height: 5rem;
+    border: none;
+    outline: none;
+}
+form #time{
+    width: 38.5rem;
+}
+.btn2{
+    color: #fff;
+    display: block;
+    height: 76.16px;
+    width: 615px;
+    background: #1E73E8;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.8rem;
+    cursor: pointer;
+    border: none;
+}
+
+footer{
+    background:  #1E73E8;
+    color: #fff;
+}
+footer .left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
